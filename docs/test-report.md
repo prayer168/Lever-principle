@@ -43,4 +43,12 @@
 
 - 實驗器模擬忽略橫桿自重（與課堂教具歸零設計一致，已於 references.md 標註）。
 - 生活應用卡為簡化示意圖，非精確比例（已於頁面以「示意」性質呈現、references.md 標註）。
-- 公開部署後的線上驗證結果見下方部署段（部署時補記）。
+- 生活應用卡的鍵盤操作依原生 `<button>` 行為（Enter/Space），未另做快捷鍵。
+
+## 部署驗證（2026-07-14）
+
+- Repo：https://github.com/prayer168/Lever-principle （main 分支根目錄，GitHub Pages legacy build）
+- 公開網址：https://prayer168.github.io/Lever-principle/
+- 資源檢查：index.html、css/style.css、js/app.js、img/og/Lever-principle.png 皆回應 HTTP 200。
+- 公開站實測（真實瀏覽器 390×844）：七頁籤切換無水平溢出（scrollWidth 均 390）；實驗器調成 3×4 對 6×2 正確回報平衡；闖關第 7 題作答判定正確。
+- Open Graph／Twitter metadata 指向正式絕對網址；縮圖若快取過舊可用 Facebook Sharing Debugger 重新抓取。
