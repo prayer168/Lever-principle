@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>槓桿原理｜互動數位教材</title>
+  <meta name="description" content="透過槓桿實驗器模擬、分段動畫與生活工具觀察，學習支點、施力點、抗力點與槓桿平衡原理，並完成十題闖關挑戰。適用國小高年級與國中自然科。" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="槓桿原理互動教材" />
+  <meta property="og:title" content="槓桿原理｜互動數位教材" />
+  <meta property="og:description" content="操作槓桿實驗器、觀察分段動畫、指認生活工具的支點與施力點，理解「施力×施力臂＝抗力×抗力臂」。" />
+  <meta property="og:url" content="https://prayer168.github.io/Lever-principle/" />
+  <meta property="og:image" content="https://prayer168.github.io/Lever-principle/img/og/Lever-principle.png" />
+  <meta property="og:image:secure_url" content="https://prayer168.github.io/Lever-principle/img/og/Lever-principle.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="槓桿原理互動教材社群分享圖，顯示槓桿實驗器與支點、施力點、抗力點標示。" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="槓桿原理｜互動數位教材" />
+  <meta name="twitter:description" content="操作槓桿實驗器、觀察分段動畫、指認生活工具的支點與施力點，理解槓桿平衡原理。" />
+  <meta name="twitter:image" content="https://prayer168.github.io/Lever-principle/img/og/Lever-principle.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>⚖️ 槓桿原理</h1>
+    <p class="subtitle">支點・施力點・抗力點｜適用國小高年級～國中自然科</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="教材單元">
+    <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-mission" id="tab-mission">🎯 任務</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="panel-explore" id="tab-explore" tabindex="-1">🔍 探索</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="panel-interact" id="tab-interact" tabindex="-1">🧪 互動實驗</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="panel-animation" id="tab-animation" tabindex="-1">🎬 動畫</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="panel-apply" id="tab-apply" tabindex="-1">🏠 生活應用</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="panel-quiz" id="tab-quiz" tabindex="-1">🏆 闖關</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="panel-resources" id="tab-resources" tabindex="-1">📚 資源</button>
+  </nav>
+
+  <main>
+    <!-- ═══════════ 任務 ═══════════ -->
+    <section id="panel-mission" class="panel is-active" role="tabpanel" aria-labelledby="tab-mission">
+      <h2>你的任務：成為「省力工程師」</h2>
+      <p class="lead">工地裡有一顆好大的石頭擋住了路，徒手根本搬不動。你的任務是利用一根長棒子和一塊小石塊，想辦法用最小的力氣把大石頭撬起來——這就是<strong>槓桿</strong>的智慧！</p>
+      <div class="goal-cards">
+        <div class="goal-card">
+          <span class="goal-num">目標 1</span>
+          <p>能在圖片和真實工具上，指出槓桿的三要素：<span class="kw kw-fulcrum">支點</span>、<span class="kw kw-effort">施力點</span>、<span class="kw kw-load">抗力點</span>。</p>
+        </div>
+        <div class="goal-card">
+          <span class="goal-num">目標 2</span>
+          <p>能操作槓桿實驗器，說出平衡的條件：<strong>施力×施力臂＝抗力×抗力臂</strong>。</p>
+        </div>
+        <div class="goal-card">
+          <span class="goal-num">目標 3</span>
+          <p>能判斷生活中的工具是<strong>省力</strong>還是<strong>費力</strong>槓桿，並說出省力要付出的代價。</p>
+        </div>
+      </div>
+      <div class="hint-box">
+        <h3>怎麼使用這份教材？</h3>
+        <ol>
+          <li>先到「🔍 探索」認識槓桿的三個關鍵位置。</li>
+          <li>到「🧪 互動實驗」親手調整砝碼和位置，找出平衡的祕密。</li>
+          <li>看「🎬 動畫」了解為什麼移動支點就能更省力。</li>
+          <li>在「🏠 生活應用」點一點，找出八種工具的三要素。</li>
+          <li>最後挑戰「🏆 闖關」十題，全部答對就是合格的省力工程師！</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═══════════ 探索 ═══════════ -->
+    <section id="panel-explore" class="panel" role="tabpanel" aria-labelledby="tab-explore" hidden>
+      <h2>槓桿的三要素</h2>
+      <p class="lead">一根硬棒，靠在一個固定的點上轉動，就成了「槓桿」。槓桿上有三個重要位置：</p>
+      <div class="explore-layout">
+        <figure class="figure-block">
+          <svg viewBox="0 0 760 430" role="img" aria-label="槓桿示意圖：水平長棒放在中央的三角形支點上，左端吊著石頭代表抗力點，右端有向下的紅色箭頭代表施力點，棒下方標示抗力臂與施力臂的距離。" class="explore-svg">
+            <defs>
+              <linearGradient id="ex-beam" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#c8925a"/>
+                <stop offset="1" stop-color="#8f5f33"/>
+              </linearGradient>
+              <linearGradient id="ex-rock" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#9aa3ad"/>
+                <stop offset="1" stop-color="#5b6570"/>
+              </linearGradient>
+            </defs>
+            <!-- 地面 -->
+            <line x1="40" y1="392" x2="720" y2="392" stroke="#7a8a6e" stroke-width="4" stroke-linecap="round"/>
+            <!-- 支點三角形 -->
+            <polygon points="380,260 340,390 420,390" fill="#e8a33d" stroke="#a86d14" stroke-width="3"/>
+            <!-- 槓桿棒（水平、平衡狀態） -->
+            <rect x="110" y="244" width="540" height="18" rx="6" fill="url(#ex-beam)" stroke="#6b4423" stroke-width="2"/>
+            <!-- 抗力點：吊掛石頭 -->
+            <line x1="160" y1="262" x2="160" y2="300" stroke="#555" stroke-width="3"/>
+            <path d="M132 336 Q128 308 152 300 Q166 292 184 302 Q198 310 192 332 Q186 350 160 350 Q138 348 132 336 Z" fill="url(#ex-rock)" stroke="#454d56" stroke-width="2.5"/>
+            <!-- 抗力箭頭（藍，向下） -->
+            <line x1="160" y1="356" x2="160" y2="392" stroke="#2563eb" stroke-width="5"/>
+            <polygon points="160,404 150,386 170,386" fill="#2563eb"/>
+            <!-- 施力箭頭（紅，向下壓右端） -->
+            <line x1="610" y1="164" x2="610" y2="228" stroke="#e11d48" stroke-width="6"/>
+            <polygon points="610,242 598,220 622,220" fill="#e11d48"/>
+            <!-- 標籤：抗力點 -->
+            <line x1="160" y1="238" x2="120" y2="176" stroke="#2563eb" stroke-width="1.5"/>
+            <circle cx="160" cy="248" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+            <rect x="52" y="140" width="136" height="34" rx="8" fill="#eaf1fe" stroke="#2563eb" stroke-width="1.5"/>
+            <text x="120" y="163" text-anchor="middle" font-size="20" fill="#1d4ed8" font-weight="bold">抗力點（重物）</text>
+            <!-- 標籤：施力點 -->
+            <circle cx="610" cy="253" r="7" fill="#e11d48" stroke="#fff" stroke-width="2"/>
+            <rect x="542" y="106" width="136" height="34" rx="8" fill="#fdeef2" stroke="#e11d48" stroke-width="1.5"/>
+            <text x="610" y="129" text-anchor="middle" font-size="20" fill="#be123c" font-weight="bold">施力點（出力）</text>
+            <!-- 標籤：支點 -->
+            <circle cx="380" cy="253" r="7" fill="#d97706" stroke="#fff" stroke-width="2"/>
+            <line x1="380" y1="330" x2="470" y2="352" stroke="#a86d14" stroke-width="1.5"/>
+            <rect x="472" y="338" width="150" height="34" rx="8" fill="#fdf3e3" stroke="#d97706" stroke-width="1.5"/>
+            <text x="547" y="361" text-anchor="middle" font-size="20" fill="#92400e" font-weight="bold">支點（轉動中心）</text>
+            <!-- 力臂尺寸線 -->
+            <line x1="160" y1="66" x2="380" y2="66" stroke="#1d4ed8" stroke-width="2"/>
+            <line x1="160" y1="58" x2="160" y2="74" stroke="#1d4ed8" stroke-width="2"/>
+            <line x1="380" y1="58" x2="380" y2="74" stroke="#1d4ed8" stroke-width="2"/>
+            <text x="270" y="54" text-anchor="middle" font-size="19" fill="#1d4ed8" font-weight="bold">抗力臂</text>
+            <line x1="380" y1="66" x2="610" y2="66" stroke="#be123c" stroke-width="2"/>
+            <line x1="610" y1="58" x2="610" y2="74" stroke="#be123c" stroke-width="2"/>
+            <text x="495" y="54" text-anchor="middle" font-size="19" fill="#be123c" font-weight="bold">施力臂</text>
+            <line x1="160" y1="74" x2="160" y2="136" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 4"/>
+            <line x1="380" y1="74" x2="380" y2="240" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 4"/>
+            <line x1="610" y1="74" x2="610" y2="100" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 4"/>
+          </svg>
+          <figcaption>槓桿三要素與兩個力臂。「力臂」是從支點量到力作用位置的距離。</figcaption>
+        </figure>
+        <div class="explore-text">
+          <dl class="term-list">
+            <dt class="kw kw-fulcrum">支點</dt>
+            <dd>槓桿轉動時固定不動的點，就像蹺蹺板中間的架子。</dd>
+            <dt class="kw kw-effort">施力點</dt>
+            <dd>我們對槓桿出力的位置。從支點到施力點的距離叫<strong>施力臂</strong>。</dd>
+            <dt class="kw kw-load">抗力點</dt>
+            <dd>槓桿承受重物（或阻力）的位置。從支點到抗力點的距離叫<strong>抗力臂</strong>。</dd>
+          </dl>
+          <div class="formula-box" role="note">
+            <p class="formula">槓桿平衡時：<br><strong>施力 × 施力臂 ＝ 抗力 × 抗力臂</strong></p>
+            <p>所以只要<strong>施力臂比抗力臂長</strong>，用比較小的力就能抬起比較重的東西——這就是「省力槓桿」！反過來，施力臂比抗力臂短，就是「費力槓桿」。</p>
+          </div>
+          <p class="think-q">🤔 想一想：蹺蹺板兩邊距離一樣長，它是省力還是費力槓桿？（到互動實驗找答案！）</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 互動實驗 ═══════════ -->
+    <section id="panel-interact" class="panel" role="tabpanel" aria-labelledby="tab-interact" hidden>
+      <h2>槓桿實驗器：找出平衡的祕密</h2>
+      <p class="lead">這是課堂上常用的「槓桿實驗器」：中間是支點，左右兩邊各有 10 格掛勾。調整左右兩邊的<strong>砝碼數</strong>和<strong>掛的格數（離支點幾格）</strong>，觀察槓桿什麼時候會平衡。</p>
+      <div class="lab-layout">
+        <figure class="figure-block lab-figure">
+          <svg viewBox="0 0 800 400" role="img" aria-label="槓桿實驗器模擬：中央支點上放置有刻度的橫桿，左右兩側可掛砝碼，槓桿會依兩側力矩大小傾斜或保持水平。" class="lab-svg">
+            <defs>
+              <linearGradient id="lab-beam" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fde68a"/>
+                <stop offset="1" stop-color="#f59e0b"/>
+              </linearGradient>
+            </defs>
+            <line x1="60" y1="372" x2="740" y2="372" stroke="#7a8a6e" stroke-width="4" stroke-linecap="round"/>
+            <polygon points="400,236 360,370 440,370" fill="#e8a33d" stroke="#a86d14" stroke-width="3"/>
+            <text x="400" y="342" text-anchor="middle" font-size="17" fill="#7c4a03" font-weight="bold">支點</text>
+            <!-- 可旋轉的橫桿群組（JS 控制角度） -->
+            <g id="lab-beam-group" style="transform-origin:400px 230px;">
+              <g aria-hidden="true">
+                <rect x="120" y="222" width="560" height="16" rx="5" fill="url(#lab-beam)" stroke="#b45309" stroke-width="2"/>
+                <circle cx="400" cy="230" r="8" fill="#78350f"/>
+                <g id="lab-ticks"></g>
+                <g id="lab-left-weight"></g>
+                <g id="lab-right-weight"></g>
+              </g>
+            </g>
+          </svg>
+          <p id="lab-status" class="lab-status" role="status" aria-live="polite">左右一樣重、一樣遠：槓桿平衡！</p>
+        </figure>
+        <div class="lab-controls">
+          <fieldset class="ctrl-group ctrl-left">
+            <legend>◀ 左邊（抗力）</legend>
+            <label for="left-mass">砝碼數：<output id="left-mass-out">4</output> 個</label>
+            <input type="range" id="left-mass" min="1" max="10" value="4" step="1" />
+            <label for="left-dist">掛在第 <output id="left-dist-out">3</output> 格</label>
+            <input type="range" id="left-dist" min="1" max="10" value="3" step="1" />
+            <p class="torque-readout">左邊力矩＝<output id="left-torque">12</output>（砝碼×格數）</p>
+          </fieldset>
+          <fieldset class="ctrl-group ctrl-right">
+            <legend>右邊（施力）▶</legend>
+            <label for="right-mass">砝碼數：<output id="right-mass-out">4</output> 個</label>
+            <input type="range" id="right-mass" min="1" max="10" value="4" step="1" />
+            <label for="right-dist">掛在第 <output id="right-dist-out">3</output> 格</label>
+            <input type="range" id="right-dist" min="1" max="10" value="3" step="1" />
+            <p class="torque-readout">右邊力矩＝<output id="right-torque">12</output>（砝碼×格數）</p>
+          </fieldset>
+          <div class="challenge-box">
+            <h3>⚡ 平衡挑戰</h3>
+            <p id="challenge-text">左邊固定掛 <strong>6 個砝碼在第 4 格</strong>。請只調整<strong>右邊</strong>，讓槓桿平衡。（提示：答案不只一種！）</p>
+            <div class="challenge-actions">
+              <button type="button" id="challenge-start" class="btn btn-primary">開始挑戰</button>
+              <button type="button" id="challenge-new" class="btn" hidden>換一題</button>
+            </div>
+            <p id="challenge-result" role="status" aria-live="polite"></p>
+          </div>
+          <button type="button" id="lab-reset" class="btn">↺ 重設實驗器</button>
+        </div>
+      </div>
+      <div class="hint-box">
+        <h3>📋 觀察記錄</h3>
+        <p>試著找出<strong>三組</strong>不同的平衡組合，把「砝碼數×格數」記下來。你發現了什麼規律？<br>
+        （例如：左邊 6×2 ＝ 右邊 4×3 ＝ 右邊 3×4 ＝ 右邊 2×6，乘積都是 12！）</p>
+      </div>
+    </section>
+
+    <!-- ═══════════ 動畫 ═══════════ -->
+    <section id="panel-animation" class="panel" role="tabpanel" aria-labelledby="tab-animation" hidden>
+      <h2>動畫：怎麼撬起大石頭最省力？</h2>
+      <p class="lead">回到任務現場！看看同一顆大石頭，支點位置不同時，需要的力氣差多少。</p>
+      <figure class="figure-block">
+        <svg viewBox="0 140 800 280" role="img" aria-label="撬石頭分段動畫：一根長棒斜插進大石頭下方，中段架在小石塊支點上，另一端翹在空中由人施力下壓；動畫比較支點靠近或遠離大石頭時所需施力的大小。" class="anim-svg">
+          <defs>
+            <linearGradient id="an-rock" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#9aa3ad"/>
+              <stop offset="1" stop-color="#525c66"/>
+            </linearGradient>
+            <linearGradient id="an-bar" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#c8925a"/>
+              <stop offset="1" stop-color="#8f5f33"/>
+            </linearGradient>
+          </defs>
+          <line x1="30" y1="380" x2="770" y2="380" stroke="#7a8a6e" stroke-width="5" stroke-linecap="round"/>
+          <!-- 大石頭（抗力，位置固定在左側） -->
+          <g id="an-bigrock">
+            <path d="M96 380 Q84 322 128 302 Q168 284 208 304 Q244 320 236 360 Q230 382 200 380 Z" fill="url(#an-rock)" stroke="#3f474f" stroke-width="3"/>
+            <path d="M140 330 Q160 320 182 332" fill="none" stroke="#7d8790" stroke-width="2"/>
+          </g>
+          <!-- 槓桿棒：外層動畫旋轉，內層保留基礎斜放定位（棒尖插進石頭下方，施力端翹在空中） -->
+          <g id="an-bar-group">
+            <g transform="translate(170 372) rotate(-15)" aria-hidden="true">
+              <rect x="-20" y="-11" width="560" height="12" rx="5" fill="url(#an-bar)" stroke="#6b4423" stroke-width="2"/>
+            </g>
+          </g>
+          <!-- 支點小石塊（JS 設定位置） -->
+          <polygon id="an-fulcrum-tri" points="290,341 266,380 314,380" fill="#e8a33d" stroke="#a86d14" stroke-width="2.5"/>
+          <!-- 施力箭頭（JS 設定長度與位置） -->
+          <g id="an-force" opacity="0">
+            <line id="an-force-line" x1="690" y1="200" x2="690" y2="280" stroke="#e11d48" stroke-width="7"/>
+            <polygon id="an-force-head" points="690,296 677,274 703,274" fill="#e11d48"/>
+            <text id="an-force-label" x="690" y="186" text-anchor="middle" font-size="21" fill="#be123c" font-weight="bold">施力</text>
+          </g>
+          <!-- 標註文字（依階段顯示） -->
+          <g id="an-notes" font-size="19" font-weight="bold">
+            <text id="an-note-load" x="166" y="276" text-anchor="middle" fill="#1d4ed8" opacity="0">抗力點</text>
+            <text id="an-note-fulcrum" x="290" y="410" text-anchor="middle" fill="#92400e" opacity="0">支點</text>
+            <text id="an-note-arm" x="520" y="250" text-anchor="middle" fill="#be123c" opacity="0">施力臂變長 → 更省力！</text>
+          </g>
+        </svg>
+        <figcaption id="anim-caption" aria-live="polite" class="anim-caption">按「▶ 播放」或「下一步」開始觀察。</figcaption>
+      </figure>
+      <div class="anim-controls" role="group" aria-label="動畫控制">
+        <button type="button" id="anim-prev" class="btn">◀ 上一步</button>
+        <button type="button" id="anim-play" class="btn btn-primary">▶ 播放</button>
+        <button type="button" id="anim-next" class="btn">下一步 ▶</button>
+        <button type="button" id="anim-reset" class="btn">↺ 重播</button>
+        <span id="anim-stage-label" class="stage-label" aria-live="polite">階段 0 / 4</span>
+      </div>
+      <div class="hint-box">
+        <h3>👀 觀察後想一想</h3>
+        <ul>
+          <li>支點往大石頭移近時，<strong>施力臂</strong>變長還是變短？需要的力變大還是變小？</li>
+          <li>省力的時候，手往下壓的<strong>距離</strong>和石頭抬起的距離，哪個比較長？</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════ 生活應用 ═══════════ -->
+    <section id="panel-apply" class="panel" role="tabpanel" aria-labelledby="tab-apply" hidden>
+      <h2>生活中的槓桿：點一點，找三要素</h2>
+      <p class="lead">下面八種工具都是槓桿！<strong>點擊卡片</strong>看它怎麼動，並觀察三個彩色圓點：<span class="kw kw-fulcrum">●支點</span>、<span class="kw kw-effort">●施力點</span>、<span class="kw kw-load">●抗力點</span>，再看看它是省力還是費力槓桿。</p>
+      <div class="apply-grid" id="apply-grid"></div>
+      <div class="hint-box">
+        <h3>🔎 分類挑戰</h3>
+        <p>把八種工具按「支點、施力點、抗力點誰在中間」分成三類，你會發現：<strong>支點在中間</strong>（如蹺蹺板）、<strong>抗力點在中間</strong>（如開瓶器，一定省力）、<strong>施力點在中間</strong>（如鑷子，一定費力但動作精細快速）。</p>
+      </div>
+    </section>
+
+    <!-- ═══════════ 闖關 ═══════════ -->
+    <section id="panel-quiz" class="panel" role="tabpanel" aria-labelledby="tab-quiz" hidden>
+      <h2>省力工程師認證：十題闖關</h2>
+      <p class="lead">每題選出一個答案，答完立即知道對錯與解說。全部作答後看看你的成績！</p>
+      <p id="quiz-score" class="quiz-score" role="status" aria-live="polite">目前得分：0 / 10</p>
+      <ol id="quiz-list" class="quiz-list"></ol>
+      <button type="button" id="quiz-reset" class="btn">↺ 重新挑戰</button>
+    </section>
+
+    <!-- ═══════════ 資源 ═══════════ -->
+    <section id="panel-resources" class="panel" role="tabpanel" aria-labelledby="tab-resources" hidden>
+      <h2>自主學習資源</h2>
+      <p class="lead">想玩更多、學更深？這些平台都能免費使用：</p>
+      <ul class="resource-list">
+        <li>
+          <a href="https://phet.colorado.edu/zh_TW/simulations/balancing-act" target="_blank" rel="noopener">PhET 互動模擬：平衡動作（Balancing Act）</a>
+          <p>美國科羅拉多大學開發的免費物理模擬，把不同重量的物體放上蹺蹺板找平衡，和本教材的實驗器概念相同。<br><small>來源：University of Colorado Boulder PhET｜適用：國小高年級～國中｜查核日期：2026-07-14</small></p>
+        </li>
+        <li>
+          <a href="https://www.junyiacademy.org/" target="_blank" rel="noopener">均一教育平台</a>
+          <p>搜尋「槓桿」可找到簡單機械單元的教學影片與練習題。<br><small>來源：財團法人均一平台教育基金會｜適用：國小～國中｜查核日期：2026-07-14</small></p>
+        </li>
+        <li>
+          <a href="https://adl.edu.tw/" target="_blank" rel="noopener">教育部因材網</a>
+          <p>教育部官方數位學習平台，自然科學領域有「簡單機械」相關學習節點與診斷測驗。<br><small>來源：教育部｜適用：國小～國中｜查核日期：2026-07-14</small></p>
+        </li>
+        <li>
+          <a href="https://www.ntsec.gov.tw/" target="_blank" rel="noopener">國立臺灣科學教育館</a>
+          <p>館內常設展有力學與簡單機械的實體互動展品，適合校外教學延伸。<br><small>來源：國立臺灣科學教育館｜適用：全年齡｜查核日期：2026-07-14</small></p>
+        </li>
+      </ul>
+      <div class="hint-box">
+        <h3>🏡 在家動手做</h3>
+        <p>拿一把 30 公分直尺當槓桿、橡皮擦當支點、幾枚相同的硬幣當砝碼，就能在家重做「平衡挑戰」！試試看：支點不放中間時，兩邊要怎麼放硬幣才會平衡？</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>槓桿原理互動數位教材 v1.0.0｜黑熊老師自然科學數位教材</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
